@@ -12,11 +12,6 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public class RegistrationFormTest extends BaseTest {
 
     @Test
-    void firstTest() {
-        assertTrue(true);
-    }
-
-    @Test
     void registrationFormTest() {
 
         User user = User.builder()
