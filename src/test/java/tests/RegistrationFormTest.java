@@ -1,12 +1,9 @@
 package tests;
 
-import io.qameta.allure.Step;
 import org.junit.jupiter.api.*;
 import models.User;
 import pages.RegistrationPage;
 import tests.config.BaseTest;
-
-import static org.junit.jupiter.api.Assertions.assertTrue;
 
 @DisplayName("Registration page Tests")
 public class RegistrationFormTest extends BaseTest {
