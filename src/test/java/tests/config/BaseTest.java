@@ -21,8 +21,8 @@ public class BaseTest {
 
         Configuration.browser = "CHROME";
         Configuration.browserSize = "1920x1400";
-        Configuration.baseUrl = "https://demoqa.com";
-        Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub";
+        Configuration.baseUrl = System.getProperty("baseLink");
+        Configuration.remote = "https://" + System.getProperty("login") + ":" + System.getProperty("pass") + "@selenoid.autotests.cloud/wd/hub";
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("enableVNC", true);
