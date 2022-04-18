@@ -25,6 +25,7 @@
 *.rar
 *.iml
 *.bat
+*.gradle
 
 # Project gen files
 gradlew
